@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.fmsoftware</groupId>
+    <artifactId>AnimatedGifEncoder</artifactId>
+    <version>1.03</version>
+    <packaging>jar</packaging>
+    <name>gif4j</name>
+    <description>
+        A re-package of the Animated GIF processing classes made
+        available by Kevin Weiner at http://www.fmsware.com/stuff/gif.html
+    </description>
+    <url>https://github.com/kangqichn/gif4j</url>
+    <issueManagement>
+        <url>https://github.com/kangqichn/gif4j/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+    <licenses>
+        <license>
+            <name>Apache V2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/kangqichn/gif4j</url>
+        <connection>scm:git:git://github.com/kangqichn/gif4j.git</connection>
+        <developerConnection>scm:git:git@github.com:kangqichn/gif4j.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <email>kangqichn@qq.com</email>
+            <name>kangqi</name>
+            <url>https://github.com/kangqichn</url>
+            <id>kangqichn</id>
+        </developer>
+    </developers>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>
